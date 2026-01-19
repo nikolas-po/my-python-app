@@ -1,0 +1,19 @@
+# Основные зависимости для работы с MySQL
+mysql-connector-python==8.2.0
+python-dotenv==1.0.0
+
+# Дополнительные утилиты (опционально)
+SQLAlchemy==2.0.23
+pandas==2.1.4
+numpy==1.26.2
+requests==2.31.0
+
+# Для разработки и логирования
+loguru==0.7.2
+black==23.11.0
+flake8==6.1.0
+
+# Веб-фреймворки (если планируете API)
+# Flask==3.0.0
+# FastAPI==0.104.1
+# uvicorn[standard]==0.24.0
